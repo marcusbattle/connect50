@@ -1,0 +1,68 @@
+body {
+	background-color: #333;
+}
+
+.area {
+	padding: 100px 20px;
+	position: relative;
+}
+
+#nav-bar {
+	background-color: #fff;
+}
+
+#hero-area {
+	background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('../images/air-balloons.jpg'), #333; 
+	background-size: cover; 
+	background-position: top center;
+	color: #fff; 
+	min-height: 700px;
+
+	h1 {
+		font-weight: 100;
+		font-size: 80px;
+	}
+
+	.overlay {
+		position: absolute;
+		display: block;
+		background-color: orange;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		opacity: .2;
+		z-index: 0;
+	}
+
+	.free {
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		display: block;
+	}
+
+}
+
+#how-this-works {
+	background-color: #333;
+	color: #f4f4f4;
+}
+
+#subscribe-area {
+	background-color: #fff;
+}
+
+#promoter {
+	background-color: #f16228;
+	color: #fff;
+}
+
+h2 {
+	font-weight: 100;
+}
+
+.row {
+	max-width: 960px;
+	margin: 0 auto;
+}
