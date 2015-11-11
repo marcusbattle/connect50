@@ -83,6 +83,20 @@
 
 						</select>
 					</div>
+					<div class="mc-field-group">
+						<label for="mce-AGE">Age Range <span class="asterisk">*</span>
+					</label>
+						<select name="AGE" class="required" id="mce-AGE">
+						<option value=""></option>
+						<option value="13-17">13-17</option>
+					<option value="18-24">18-24</option>
+					<option value="25-34">25-34</option>
+					<option value="35-44">35-44</option>
+					<option value="45-54">45-54</option>
+					<option value="65+">65+</option>
+
+						</select>
+					</div>
 					<div class="mc-field-group input-group">
 					    <strong>Event types you're interested in (Select as many as you like)</strong>
 					    <ul><li><input type="checkbox" value="1" name="group[721][1]" id="mce-group[721]-721-0"><label for="mce-group[721]-721-0"> Food</label></li>
@@ -99,7 +113,7 @@
 			    </div>
 			</form>
 			</div>
-			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='CITY';ftypes[3]='text';fnames[4]='STATE';ftypes[4]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='CITY';ftypes[3]='text';fnames[4]='STATE';ftypes[4]='dropdown';fnames[5]='AGE';ftypes[5]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 			<!--End mc_embed_signup-->
 			<p class="small-text text-center">Currently, we're only serving North Carolina, but send an e-mail to --- if you would like Conect50 offered in your area.</p>
   		</div>
