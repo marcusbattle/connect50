@@ -24,7 +24,7 @@
   		<div class="row free">
   			<h1>Finally. A cure for weekend boredom in every city.</h1>
   			<p class="lead">A FREE email delivered to your inbox with events near you, every Wednesday.</p>
-  			<p><a class="btn btn-success btn-lg">Subcribe Now</a></p>
+  			<p><a class="btn btn-success btn-lg" href="#subscribe-area">Subcribe Now</a></p>
   		</div>
   		<div class="overlay"></div>
   	</div>
