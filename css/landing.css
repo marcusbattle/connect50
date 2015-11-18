@@ -43,6 +43,9 @@ body {
 #promoter {
   background-color: #f16228;
   color: #fff; }
+  #promoter a {
+    color: #fff;
+    font-weight: bold; }
 
 h2 {
   font-weight: 100; }

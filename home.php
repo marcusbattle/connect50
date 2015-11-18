@@ -46,13 +46,13 @@
 			<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 			<style type="text/css">
 				#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+				#mc_embed_signup{margin: 0 auto; max-width: 600px;}
 				/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 				   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 			</style>
-			<div id="mc_embed_signup" style="max-width: 600px; margin: 0 auto;">
+			<div id="mc_embed_signup">
 			<form action="//connect50.us12.list-manage.com/subscribe/post?u=c480e3f57dd77c549054b8ee1&amp;id=6fadcb1992" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			    <div id="mc_embed_signup_scroll">
-				<!-- <h2>Subscribe to our mailing list</h2> -->
 					<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 					<div class="mc-field-group">
 						<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -84,7 +84,7 @@
 						</select>
 					</div>
 					<div class="mc-field-group">
-						<label for="mce-AGE">Age Range <span class="asterisk">*</span>
+						<label for="mce-AGE">Age  <span class="asterisk">*</span>
 					</label>
 						<select name="AGE" class="required" id="mce-AGE">
 						<option value=""></option>
@@ -97,31 +97,42 @@
 
 						</select>
 					</div>
+					<div class="mc-field-group">
+						<label for="mce-METRO">Closest Metropolitan Area  <span class="asterisk">*</span>
+					</label>
+						<select name="METRO" class="required" id="mce-METRO">
+						<option value=""></option>
+						<option value="Raleigh, NC">Raleigh, NC</option>
+					<option value="Greensboro, NC">Greensboro, NC</option>
+					<option value="Charlotte, NC">Charlotte, NC</option>
+
+						</select>
+					</div>
 					<div class="mc-field-group input-group">
-					    <strong>Event types you're interested in (Select as many as you like)</strong>
-					    <ul><li><input type="checkbox" value="1" name="group[721][1]" id="mce-group[721]-721-0"><label for="mce-group[721]-721-0"> Food</label></li>
-					<li><input type="checkbox" value="2" name="group[721][2]" id="mce-group[721]-721-1"><label for="mce-group[721]-721-1"> Family</label></li>
-					<li><input type="checkbox" value="4" name="group[721][4]" id="mce-group[721]-721-2"><label for="mce-group[721]-721-2"> Night Life</label></li>
+					    <strong>Event Types </strong>
+					    <ul><li><input type="checkbox" value="1" name="group[721][1]" id="mce-group[721]-721-0"><label for="mce-group[721]-721-0">Food</label></li>
+					<li><input type="checkbox" value="2" name="group[721][2]" id="mce-group[721]-721-1"><label for="mce-group[721]-721-1">Family</label></li>
+					<li><input type="checkbox" value="4" name="group[721][4]" id="mce-group[721]-721-2"><label for="mce-group[721]-721-2">Night Life</label></li>
 					</ul>
-				</div>
-				<div id="mce-responses" class="clear">
-					<div class="response" id="mce-error-response" style="display:none"></div>
-					<div class="response" id="mce-success-response" style="display:none"></div>
-				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-			    <div style="position: absolute; left: -5000px;"><input type="text" name="b_c480e3f57dd77c549054b8ee1_6fadcb1992" tabindex="-1" value=""></div>
-			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-			    </div>
-			</form>
+					</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_c480e3f57dd77c549054b8ee1_6fadcb1992" tabindex="-1" value=""></div>
+				    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				    </div>
+				</form>
 			</div>
-			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='CITY';ftypes[3]='text';fnames[4]='STATE';ftypes[4]='dropdown';fnames[5]='AGE';ftypes[5]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='CITY';ftypes[3]='text';fnames[4]='STATE';ftypes[4]='dropdown';fnames[5]='AGE';ftypes[5]='dropdown';fnames[6]='METRO';ftypes[6]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 			<!--End mc_embed_signup-->
-			<p class="small-text text-center">Currently, we're only serving North Carolina, but send an e-mail to --- if you would like Conect50 offered in your area.</p>
+			<p class="small-text text-center">Currently, we're only serving North Carolina, but send an e-mail to <a href="mailto:bluevantagemarketing@gmail.com">bluevantagemarketing@gmail.com</a> if you would like Conect50 offered in your area.</p>
   		</div>
   	</div>
   	<div id="promoter" class="container-fluid area">
   		<div class="row text-center">
-  			<h2>Are you a organizing an event?</h2>
-  			<p class="lead">Connect50 can take the guess work out of filling seats for your event. Free for a limited time, send your event to the people who actually want to hear about it. Contact us at ---</p>
+  			<h2>Are you organizing an event?</h2>
+  			<p class="lead">Connect50 can take the guess work out of filling seats for your event. Free for a limited time, send your event to the people who actually want to hear about it. Contact us at <a href="mailto:bluevantagemarketing@gmail.com">bluevantagemarketing@gmail.com</a></p>
   		</div>
   	</div>
 
